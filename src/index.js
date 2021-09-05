@@ -14,7 +14,7 @@ const app = fastify();
 MongoDB connection code. Fill in the link to your database
 */
 try {
-    mongoose.connect('');
+    mongoose.connect('mongodb://localhost:27017/fastify_crud');
 } catch (e) {
     console.error(e);
 }

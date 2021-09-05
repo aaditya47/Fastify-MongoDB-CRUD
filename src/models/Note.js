@@ -9,7 +9,7 @@ const { Schema } = mongoose;
 Note Schema definition
 */
 const Note = mongoose.model('note', new Schema({
-    text: { text: String, required: true },
+    text: { text: String },
 }));
 
 module.exports = Note;
