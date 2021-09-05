@@ -1,0 +1,25 @@
+{
+  "name": "fastify-mongodb-crud",
+  "version": "1.0.0",
+  "description": "An API server built using Fastify to handle CRUD operations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaditya47/Fastify-MongoDB-CRUD.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aaditya47/Fastify-MongoDB-CRUD/issues"
+  },
+  "homepage": "https://github.com/aaditya47/Fastify-MongoDB-CRUD#readme",
+  "dependencies": {
+    "fastify": "^3.20.2",
+    "mongoose": "^6.0.4"
+  }
+}
